@@ -1,1 +1,1 @@
-# mdp-pathfinder
+# Markov Decision Process - Pathfinding Algorithm for Autonomous Agent
