@@ -123,11 +123,11 @@ def calc_next_moves(curr_posn, values, policies, power_cost, discount, size):
 # values : empty nxn matrix that is updated with the utility value at each position on the board after the function call
 # delivery_price : the utility earned for completing the robot delivery
 # power_cost : the cost of power by the robot at each step
-# robot_repair_cost : the negative utility that is earned when the robot ends up in a hazardous position
+# drone_repair_cost : the negative utility that is earned when the robot ends up in a hazardous position
 # discount : the discount at each step in the operation (gamma value)
 # size : the n value for the nxn matrices provided by map, policies, and values
 # --> returns the utility value at the start position
-def robot_travel_planner(map, policies, values, delivery_price, power_cost, robot_repair_cost, discount, size):
+def drone_path_planner(map, policies, values, delivery_price, power_cost, drone_repair_cost, discount, size):
     # Find Start, Goal, & Hazard Positions
     prev = copy_values(values, size)
     start = ()
@@ -145,7 +145,7 @@ def robot_travel_planner(map, policies, values, delivery_price, power_cost, robo
     # Initialize Values with Rewards at Goal & Hazard Positions
     values[goal[0]][goal[1]] = delivery_price
     for r in rivals:
-        values[r[0]][r[1]] = robot_repair_cost*-1
+        values[r[0]][r[1]] = drone_repair_cost*-1
         
     # Loop Until Board Converges
     while True:
