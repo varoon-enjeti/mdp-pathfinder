@@ -96,7 +96,7 @@ def run_experiment(data, value_gold, p_gold, values_gold, delivery_fee, battery_
 
     vv = common.init_values()
 
-    value = mdp.robot_travel_planner(
+    value = mdp.drone_path_planner(
         map, pp, vv, delivery_fee, battery_drop_cost, dronerepair_cost, discount_per_cycle, 6)
 
     pp_gold = init_map()
