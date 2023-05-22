@@ -24,13 +24,13 @@ Given an nxn map with empty, start, goal, and hazard positions, find the utility
 <img width="200" alt="map" src="https://github.com/varoon-enjeti/mdp-pathfinder/assets/97761722/b2d5506c-8855-4bd9-b240-49154bf98161">
 <br>
 **Value Iteration - Reinforcement Learning:**
-<br>
+<br>  
 
 
 https://github.com/varoon-enjeti/mdp-pathfinder/assets/97761722/51a81d89-79ce-412f-b691-356575b8e39b
 
 
-<br>
+
 **Policies:**
 <br>
 
