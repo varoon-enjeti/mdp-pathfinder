@@ -26,7 +26,6 @@ Given an nxn map with empty, start, goal, and hazard positions, find the utility
 **Value Iteration - Reinforcement Learning:**
 <br>
 ![](https://github.com/varoon-enjeti/mdp-pathfinder/assets/97761722/6d159966-b3cf-429d-96e1-b9e0f3789dce)
-https://github.com/varoon-enjeti/mdp-pathfinder/assets/97761722/6d159966-b3cf-429d-96e1-b9e0f3789dce
 <br>
 **Policies:**
 <br>
