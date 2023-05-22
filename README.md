@@ -31,6 +31,23 @@ Given an nxn map with empty, start, goal, and hazard positions, find the utility
 <br>
 ![](https://github.com/varoon-enjeti/mdp-pathfinder/assets/97761722/964d3711-7024-49e2-bb66-4f5ba79f95bb)
 
+### Legend:
+- **Map:**
+  - **0:** Empty Position
+  - **1:** Start Position
+  - **2:** Goal Position
+  - **3:** Hazard Position
+- **Actions:**
+  - **0:** No Move
+  - **1:** South with Special Propulsion OFF
+  - **2:** West with Special Propulsion OFF
+  - **3:** North with Special Propulsion OFF
+  - **4:** East with Special Propulsion OFF
+  - **5:** South with Special Propulsion ON
+  - **6:** West with Special Propulsion ON
+  - **7:** North with Special Propulsion ON
+  - **8:** East with Special Propulsion ON
+
 
 
 
