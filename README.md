@@ -16,20 +16,20 @@ Given an nxn map with empty, start, goal, and hazard positions, find the utility
 - **Reinforcement Learning - Value Iteration:**
   - Given a vector of values V<sub>k</sub>(s), run one iteration of expectimax on the state and repeat until convergence
   - **Basic Idea:** approximations get refined towards optimal values and policies general converge far before the values
-  - <img width="500" src="https://github.com/varoon-enjeti/mdp-pathfinder/assets/97761722/0262239c-d97b-4ebd-800d-38d2f6637910">
+  - <img width="500" src="https://github.com/varoon-enjeti/mdp-pathfinder/assets/97761722/db3f7b1d-2090-41d7-9590-ac318efb7951">
 
 ### Demo (6x6 Grid):
 **Map:**
 <br>
-<img width="200" alt="map" src="https://github.com/varoon-enjeti/mdp-pathfinder/assets/97761722/a973afcf-bc03-4f69-b7eb-bff9528d9423">
+<img width="200" alt="map" src="https://github.com/varoon-enjeti/mdp-pathfinder/assets/97761722/b2d5506c-8855-4bd9-b240-49154bf98161">
 <br>
 **Value Iteration - Reinforcement Learning:**
 <br>
-![](https://github.com/varoon-enjeti/mdp-pathfinder/assets/97761722/6d159966-b3cf-429d-96e1-b9e0f3789dce)
+![](https://github.com/varoon-enjeti/mdp-pathfinder/assets/97761722/6180a09b-490f-4c1d-8ece-86f0e838f4ec)
 <br>
 **Policies:**
 <br>
-![](https://github.com/varoon-enjeti/mdp-pathfinder/assets/97761722/964d3711-7024-49e2-bb66-4f5ba79f95bb)
+![](https://github.com/varoon-enjeti/mdp-pathfinder/assets/97761722/80920619-32ed-40e4-b47a-7f52900b62f9)
 
 ### Legend:
 - **Map:**
