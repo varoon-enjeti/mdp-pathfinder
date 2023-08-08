@@ -15,7 +15,7 @@ Given an nxn map with empty, start, goal, and hazard positions, find the utility
   - Terminal State (0.1% Convergence)
 - **Reinforcement Learning - Value Iteration:**
   - Given a vector of values V<sub>k</sub>(s), run one iteration of expectimax on the state and repeat until convergence
-  - **Basic Idea:** approximations get refined towards optimal values and policies general converge far before the values
+  - **Basic Idea:** approximations get refined towards optimal values and policies generally converge far before the values
   - <img width="500" src="https://github.com/varoon-enjeti/mdp-pathfinder/assets/97761722/db3f7b1d-2090-41d7-9590-ac318efb7951">
 
 ### Demo (6x6 Grid):
